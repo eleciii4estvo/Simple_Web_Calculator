@@ -1,0 +1,102 @@
+@import url('normalize.css');
+
+body {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: #f08c00;
+}
+
+button{
+    width: 10vh;
+    height: 10vh;
+    font-size: 3vh;
+    background: #ffe8cc;
+    color: #000000;
+    border-radius: 5vh;
+    transition-duration: 0.2s ;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+.wrapper{
+    height: 100vh;
+    background: #212529;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.result_container{
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 5vh;
+    width: 60vh;
+    height: 10vh;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #f1f3f5;
+}
+
+.row_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    
+}
+
+.num{
+    margin: 10px 15px 10px 15px;
+}
+
+.higher_num{
+    margin: 0px 15px 10px 15px;
+}
+
+.big_button{
+    margin: 10px 15px 10px 15px;
+    width: 20vh;
+}
+
+.buttons_container{
+    display: flex;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.zero_point{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+.actions_container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
